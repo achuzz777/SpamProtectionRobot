@@ -14,15 +14,10 @@ from pyrogram.types import (InlineKeyboardButton,
 from spr import SUDOERS, arq, spr
 from spr.utils.db import c
 
-__MODULE__ = "Devs"
+__MODULE__ = "Dev👽"
 __HELP__ = """
-**THIS MODULE IS ONLY FOR DEVS**
 
-/eval - Execute python code.
-/sh - Execute shell code.
-
-/blacklist [CHAT_ID|USER_ID] - Blacklist a chat/user.
-/whitelist [CHAT_ID|USER_ID] - Whitelist a chat/user.
+My Dev @Abhinave_s
 """
 
 c = c
