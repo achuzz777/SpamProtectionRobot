@@ -65,7 +65,7 @@ async def delete_nsfw_notify(
     if not info:
         return
     msg = f"""
-🚨 **NSFW ALERT**  🚔
+🔞 **NSFW ALERT**  ⚠️
 {info}
 **Prediction:**
     **Safe:** `{result.neutral} %`
@@ -86,7 +86,7 @@ async def delete_spam_notify(
     if not info:
         return
     msg = f"""
-🚨 **SPAM ALERT**  🚔
+📵 **SPAM ALERT**  ⚠️
 {info}
 **Spam Probability:** {spam_probability} %
 
@@ -137,7 +137,7 @@ async def kick_user_notify(message: Message):
             return await spr.leave_chat(message.chat.id)
     info = await get_user_info(message)
     msg = f"""
-🚨 **SPAMMER ALERT**  🚔
+🚷 **SPAMMER ALERT**  ⚠️
 {info}
 
 __User has been banned__
