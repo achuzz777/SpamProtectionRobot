@@ -14,10 +14,12 @@ from pyrogram.types import (InlineKeyboardButton,
 from spr import SUDOERS, arq, spr
 from spr.utils.db import c
 
-__MODULE__ = "Dev👽"
+__MODULE__ = "Dev🧑‍💻"
 __HELP__ = """
 
-My Dev @Abhinave_s
+My Dev🧑‍💻:[Abhinave S🇮🇳](t.me/Abhinave_s)
+More Bots🤖:[Click Here 🔥](t.me/AbhinaveSuresh)
+Support💌:[Join Now!🛡️](t.me/vazhaSupport)
 """
 
 c = c
